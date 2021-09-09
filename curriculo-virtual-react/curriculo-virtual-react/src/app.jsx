@@ -6,28 +6,29 @@ import Itens from './screens/tela-meus-itens'
 import CadastraItem from './screens/tela-inserir-item'
 import Inicio from './screens/tela-inicial'
 
-
 function Um() {
-    return <Router>
-        <h1>Início</h1>
-        <Switch>
-            <Route path="/telacadastro">
-                <Parapapa />
-            </Route>
-            <Route path="/logar">
-                <Logar />
-            </Route>
-            <Route path="/itens">
-                <Itens />
-            </Route>
-            <Route path="/cadastraitem">
-                <CadastraItem />
-            </Route>
-            <Route path="/inicial">
-                <Inicio />
-            </Route>
-            </Switch>
+  return (
+    <Router>
+      <h1>Início Da Tela 2</h1>
+      <Switch>
+        <Route path="/telacadastro">
+          <Parapapa />
+        </Route>
+        <Route path="/logar">
+          <Logar />
+        </Route>
+        <Route path="/itens">
+          <Itens />
+        </Route>
+        <Route path="/cadastraitem">
+          <CadastraItem />
+        </Route>
+        <Route path="/inicial">
+          <Inicio />
+        </Route>
+      </Switch>
     </Router>
+  )
 }
 
 export default Um
