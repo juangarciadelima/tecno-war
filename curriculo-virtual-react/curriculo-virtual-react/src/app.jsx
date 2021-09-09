@@ -9,7 +9,7 @@ import Inicio from './screens/tela-inicial'
 
 function Um() {
     return <Router>
-        <h1>Início Da Tela</h1>
+        <h1>Início</h1>
         <Switch>
             <Route path="/telacadastro">
                 <Parapapa />
